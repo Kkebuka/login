@@ -11,7 +11,7 @@ header{
 }
 .content {
     width: 80%;
-    max-width: 600px;  
+    max-width:400px;  
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
@@ -24,6 +24,10 @@ header{
 .logo{
     width: 300px;
 }
+hr{
+    width: 30%;
+    margin: 10px 0px;
+}
 form{
      display: flex;
      flex-direction: column;
@@ -34,7 +38,7 @@ form{
      /* padding-top: 20px; */
 }
 input {
-    width: 50%;
+    width: 70%;
     height: 30px;
     font-size: 1rem;
     padding: 0px 1%;
@@ -42,7 +46,7 @@ input {
 }
 
 button {
-    width: 50%;
+    width: 70%;
     height: 30px;
     margin-bottom: 20px;
     font-size: 0.9rem;
