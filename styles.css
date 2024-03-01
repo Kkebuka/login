@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
+    height: auto;
 }
     
 header{
@@ -20,18 +20,20 @@ h2 {
 .content {
     width: 80%;
     max-width:400px;  
-   padding: 30px 0px;
+    padding: 30px 0px;
    
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
+    margin-bottom: 50px;
     background-color: rgba(226, 218, 218, 0.349);
     box-shadow: 2px 5px 20px 10px rgba(0, 0, 0, 0.548);
     /* padding: 50px 0px; */
 }
 .logo{
-    width: 250px;
+    width: 20%;
+    min-width: 180px;
 }
 hr{
     width: 30%;
@@ -48,10 +50,10 @@ form{
 }
 input {
     width: 70%;
-    height: 30px;
+    height: 40px;
     font-size: 1rem;
     padding: 0px 1%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 
     border: 1px solid black;
 }
@@ -92,9 +94,18 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    text-align: end;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     height: 2.5rem;
     font-size: 1.2rem;
+}
+.check {
+    width: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+.terms-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
