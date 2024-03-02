@@ -48,18 +48,33 @@ form{
      /* max-width: 500px;   */
      /* padding-top: 20px; */
 }
+
+/* label { */
+    /* position: absolute; */
+    /* top: -10px; */
+    /* left: 8px; */
+    /* font-size: 14px; */
+    /* padding: 0px 5px; */
+    /* color: #666; */
+    /* transition: 0.3s; */
+    /* pointer-events: none; */
+/* } */
 input {
     width: 70%;
     height: 40px;
     font-size: 1rem;
     padding: 0px 1%;
     margin-bottom: 15px;
-
+    outline: none;
     border: 1px solid black;
 }
-input[type=text]:focus {
-  border: none;
-}
+
+/* input:focus + label  */
+
+
+/* input[type=text]:focus { */
+  /* border: none; */
+/* } */
 
 button {
     width: 70%;
