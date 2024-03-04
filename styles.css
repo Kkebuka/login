@@ -99,6 +99,7 @@ footer {
     width: 20px;
     margin: 0px;
     padding: 0px;
+    margin-right: 10px;
 }
 .terms-div {
     display: flex;
